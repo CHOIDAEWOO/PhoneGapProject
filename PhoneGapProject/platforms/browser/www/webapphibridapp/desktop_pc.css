@@ -1,0 +1,47 @@
+@@charset "UTF-8";
+
+.pg{
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.head {
+  background-image: url(http://cafefiles.naver.net/20130502_269/10831947_1367491517969_h6G0BF_png/10831947_194517969.png);
+  background-repeat: no-repeat;
+  width: 800px;
+  height: 264px;
+  color: #000000;
+}
+
+.head h1{
+  display: none;
+}
+
+.entries{
+  float: left;
+  width: 680px;
+}
+
+.sidebar{
+  float: left;
+  text-align: right;
+  width: 100px;
+  margin-left: 20px;
+}
+
+.sidebar ul{
+  list-style-type: none;
+}
+
+.foot{
+  background-color: #333;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #999;
+  padding:10px;
+  color:#FFF;
+  margin-top: 10px;
+  clear: left;
+  text-align: center;
+}

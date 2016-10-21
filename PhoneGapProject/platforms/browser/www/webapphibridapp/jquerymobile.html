@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title></title>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="jquery.mobile/jquery.mobile-1.4.5.css" />
+  <script src="./jquery.mobile/demos/js/jquery.js"></script>
+  <script src="./jquery.mobile/demos/js/jquery.mobile-1.4.5.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <div data-role="page" id="main">
+    <div data-role="header" data-thema="b">
+      <h1>메인페이지</h1>
+    </div>
+    <div data-role="content">
+      <h2>메인페이지 입니다.<h2>
+      <p><a href="#sub" data-transition="slide">서브페이지</a></p>
+    </div>
+    <div data-role="footer">
+      <h2>Footer입니다.</h2>
+    </div>
+  </div>
+  <div data-role="page" id="sub">
+    <div data-role="header">
+      <h1>서브페이지</h1>
+    </div>
+    <div data-role="content">
+      <h2>서브페이지 입니다.</h2>
+      <p><a href="#main" data-direction="reverse">메인페이지</a></p>
+    </div>
+    <div data-role="footer">
+      <h2>Footer 입니다.</h2>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+body{
+  font-family: sans-serif;
+  background-color: #000000;
+  color:red
+}
+
+div{
+  background-color: #ffffff
+}
+
+p{
+  font-family: serif;
+  color:maroon;
+}
+
+.even{
+  background-color: yellow
+}
+
+.first{
+  background-color: red
+}
+
+.first span{
+  font-family: sans-serif;
+}
+
+.first span .s1{
+  font-family: serif;
+}
+
+#last{
+  background-color: blue
+}
+
+.h1 .h2 {
+  color:blue;
+}
+
+
+.a:link{color:gray}
+.a:visited{color:black}
+.a:hover{color:red}
+.a:active{color:yellow}
